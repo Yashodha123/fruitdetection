@@ -29,7 +29,11 @@ FLAGS = flags.FLAGS
 # TO-DO replace this with label map
 def class_text_to_int(row_label):
     if row_label == 'apple':
-        return 1      
+        return 1
+    elif row_label == 'banana':
+        return 2
+    elif row_label == 'orange':
+        return 3    
     else:
         None
 
